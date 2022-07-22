@@ -1,0 +1,177 @@
+/* *{
+    padding: 0px;
+    margin: 0;
+    font-family: 'Manrope';
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.card {
+    height: 379px;
+    width: 300px;
+    background: gray;
+    border-radius: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card0 {
+    background: url(./../../assets/images/neymar.png) left center 
+    no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h2{
+    opacity: 1;
+}
+
+.card0:hover .g {
+    opacity: 1;
+}
+
+h2 {
+    color: white;
+}
+ */
+body .um{
+    display: flex;
+    align-items: center;
+}
+
+.img-1 {
+    max-width: 100%;
+}
+
+.ui-card{
+    width: 800px;
+    height: 900px;
+    background: radial-gradient(#111 50%,#000 100% );
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.ui-card .img-1 {
+    transform: scale(1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card:hover .img-1 {
+   transform: scale(1.1) translateY(-10px) translateX(-15px);
+   opacity: 0.7;
+}
+
+.desc-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.desc-1 h2{
+    font-weight: 700;
+    font-size: 32px;
+    padding: 0 0 80px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Manrope';
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.desc-1 p{
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0.2s;
+    padding: 0 0 50px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: justify;   
+}
+
+
+
+.desc-1 a {
+    color: #DEDEDE;;
+    background:  #DEDEDE;
+    display: inline-block;
+    padding: 20px 80px;
+    text-decoration: none;
+    border-radius: 5px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0.4s;
+    margin: 50px;
+}
+
+.desc-1 a:hover {
+    background: #3a3939;
+}
+
+.ui-card:hover .desc-1 h2 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.ui-card:hover .desc-1 p {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.ui-card:hover .desc-1 a {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+/* teste */
+
+.imgUm {
+    background: url(./../../assets/images/neymar.png);
+}
+
+.imgdois {
+    background: url(./../../assets/images/prado.jpg);
+}
+
+.butt-5{
+    width: 40px;
+}
+
+.p-1 {
+    width: 400px;
+    padding-left: 30px;
+}

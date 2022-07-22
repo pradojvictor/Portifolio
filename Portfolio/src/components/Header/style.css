@@ -1,0 +1,39 @@
+
+header {
+    height: 80px;
+    background: rgba(50, 50, 50, 1);
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-1 {
+    background-color: #202020;
+    height: 80px;
+    width: 280px;
+}
+
+.ulNav-1 {
+    display: flex;
+}
+
+.nav-1 h1 {
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    padding-top: 40px;
+    padding-left: 75px;
+}
+
+.ulNav-1 li {
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    padding: 40px 15px ;
+}
