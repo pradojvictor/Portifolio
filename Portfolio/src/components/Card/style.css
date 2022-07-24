@@ -1,63 +1,4 @@
-/* *{
-    padding: 0px;
-    margin: 0;
-    font-family: 'Manrope';
-}
 
-.container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.border {
-    height: 369px;
-    width: 290px;
-    background: transparent;
-    border-radius: 10px;
-    transition: border 1s;
-    position: relative;
-}
-
-.border:hover{
-    border: 1px solid white;
-}
-
-.card {
-    height: 379px;
-    width: 300px;
-    background: gray;
-    border-radius: 10px;
-    transition: 0.8s;
-    overflow: hidden;
-    background: black;
-    box-shadow: 0 70px 63px -60px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card0 {
-    background: url(./../../assets/images/neymar.png) left center 
-    no-repeat;
-    background-size: 600px;
-}
-
-.card0:hover h2{
-    opacity: 1;
-}
-
-.card0:hover .g {
-    opacity: 1;
-}
-
-h2 {
-    color: white;
-}
- */
 body .um{
     display: flex;
     align-items: center;
@@ -68,9 +9,9 @@ body .um{
 }
 
 .ui-card{
-    width: 800px;
-    height: 900px;
-    background: radial-gradient(#111 50%,#000 100% );
+    width: 900px;
+    height: 600px;
+    background: radial-gradient(rgba(50, 50, 50, 1) 100%,#000 100% );
     overflow: hidden;
     position: relative;
     border-radius: 20px;
@@ -156,16 +97,6 @@ body .um{
     transform: translateY(0px);
 }
 
-
-/* teste */
-
-.imgUm {
-    background: url(./../../assets/images/neymar.png);
-}
-
-.imgdois {
-    background: url(./../../assets/images/prado.jpg);
-}
 
 .butt-5{
     width: 40px;

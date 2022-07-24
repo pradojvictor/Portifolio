@@ -12,7 +12,7 @@ function Work() {
             <Header />
             <body>
                 <section className="sec-6">
-                    <Card redirect={""} titulo={"ffdd"} textopt=" jkAOKA DFOAKDO" textoing=" jgjka jjjjjjjjjjjjjjjjjjjjjjjjjjjj" imagem={""}/>
+                    <Card redirect={"/"} redirect2={""} titulo={"ffdd"} textopt=" jkAOKA DFOAKDO" textoing=" jgjka jjjjjjjjjjjjjjjjjjjjjjjjjjjj" imagem={""} />
                     
                 </section>
             </body>

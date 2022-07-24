@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Allwork from "./pages/Allwork";
 import Work from "./pages/Work";
 import About from "./pages/About";
+import AboutPt from "./pages/AboutPt"
 import Contact from "./pages/Contact";
 
 export default function Routes() {
@@ -15,6 +16,7 @@ export default function Routes() {
             <Route path="/allwork" element={<Allwork/>}/>
             <Route path="/work" element={<Work/>}/>
             <Route path="/about" element={<About/>}/>
+            <Route path="/aboutpt" element={<AboutPt/>}/>
             <Route path="/contact" element={<Contact/>}/>
         </WrapperRoutes>
         </BrowserRouter>

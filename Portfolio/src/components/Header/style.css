@@ -1,18 +1,20 @@
 
 header {
     height: 80px;
+    width: 100%;
     background: rgba(50, 50, 50, 1);
 }
 
 .nav-1 {
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 
 .text-1 {
     background-color: #202020;
     height: 80px;
-    width: 280px;
+    width: 280px;   
 }
 
 .ulNav-1 {
