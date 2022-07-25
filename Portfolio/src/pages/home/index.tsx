@@ -24,7 +24,7 @@ function Home() {
                         Desenvolvedor web | Font-End | React | Typescript| Javascript | 
                         </p>
 
-                        <button className="butt-1"><Link texto="top work" redirect="/allwork" color="escuro"/></button>
+                        <button className="butt-1"><Link texto="top work" redirect="/allwork" color="escuro" targett={undefined}/></button>
 
                     </div>
 

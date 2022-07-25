@@ -9,7 +9,7 @@ function Header() {
             <nav className="nav-1">
 
                 <div className="text-1">
-                    <h1>Web developer</h1>
+                    <h1><Link texto="Web developer" redirect="/" targett={undefined}/></h1>
                 </div>
 
                 <ul className="ulNav-1">

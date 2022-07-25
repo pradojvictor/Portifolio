@@ -8,3 +8,18 @@
 .div-20 {
     display: flex;
 }
+
+
+.divi-1 {
+margin-top: 700px;
+margin-left: 100px;
+}
+
+.divi-1 p {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #959595;
+    margin: 50px;
+}
