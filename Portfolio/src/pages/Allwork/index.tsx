@@ -15,6 +15,7 @@ function Allwork() {
             <body>
                 <h4 className="top-w">top work</h4>
                 <div className="div-6">
+
                 <div className="div-4">
                     <div className="col-1">
                         <Card titulo="testao" textopt="nfnf jjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj jkAOKA DFOAKDO" textoing="projeto feito em fsfjsk ocom foco em sajkd jgjg j jgjg jflhkodjg gfhughsghdjgh ghsjghhgakhj ghdjgjjkhdgjka jjjjjjjjjjjjjjjjjjjjjjjjjjjj" imagem={foto} redirect="/" redirect2={""} />
@@ -33,6 +34,7 @@ function Allwork() {
                         <Card titulo="testao" textopt="nfnf jjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj jkAOKA DFOAKDO" textoing="projeto feito em fsfjsk ocom foco em sajkd jgjg j jgjg jflhkodjg gfhughsghdjgh ghsjghhgakhj ghdjgjjkhdgjka jjjjjjjjjjjjjjjjjjjjjjjjjjjj" imagem="" redirect="/" redirect2={undefined} />
                     </div>
                 </div>
+                
                 </div>
             </body>
         </>

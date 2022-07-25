@@ -1,7 +1,10 @@
 .sec-9 {
     padding: 10px 0px 0px 0px;   
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
+.div-20 {
+    display: flex;
+}

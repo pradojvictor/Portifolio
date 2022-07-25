@@ -8,7 +8,7 @@ header {
 .nav-1 {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+
 }
 
 .text-1 {
@@ -19,6 +19,7 @@ header {
 
 .ulNav-1 {
     display: flex;
+    padding-right: 25px;
 }
 
 .nav-1 h1 {

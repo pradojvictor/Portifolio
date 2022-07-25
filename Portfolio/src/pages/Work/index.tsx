@@ -1,4 +1,5 @@
 import Card from "../../components/Card";
+import CardWork from "../../components/RepositorioList";
 import Header from "../../components/Header";
 import Link from "../../components/Link";
 
@@ -11,9 +12,8 @@ function Work() {
         <>
             <Header />
             <body>
-                <section className="sec-6">
-                    <Card redirect={"/"} redirect2={""} titulo={"ffdd"} textopt=" jkAOKA DFOAKDO" textoing=" jgjka jjjjjjjjjjjjjjjjjjjjjjjjjjjj" imagem={""} />
-                    
+                <section className="sec-20">
+                    <CardWork/>
                 </section>
             </body>
         </>

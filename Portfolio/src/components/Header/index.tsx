@@ -13,10 +13,10 @@ function Header() {
                 </div>
 
                 <ul className="ulNav-1">
-                    <li><Link texto="home" redirect="/"/></li>
-                    <li><Link texto="work" redirect="/work"/></li>
-                    <li><Link texto="about" redirect="/about"/></li>
-                    <li><Link texto="contact" redirect="/contact"/></li>
+                    <li><Link texto="home" redirect="/" targett={undefined}/></li>
+                    <li><Link texto="work" redirect="/work" targett={undefined}/></li>
+                    <li><Link texto="about" redirect="/about" targett={undefined}/></li>
+                    <li><Link texto="contact" redirect="/contact" targett={undefined}/></li>
                 </ul>
             </nav>
         </header>

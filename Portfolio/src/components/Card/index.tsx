@@ -1,8 +1,9 @@
-import "./style.css"
 import foto from "./../../assets/images/neymar.png"
 import iconGit from "./../../assets/images/um.svg"
 import iconSite from "./../../assets/images/dois.svg"
 import Link from "../Link";
+
+import "./style.css"
 
 
 interface ICardProps {

@@ -20,7 +20,7 @@ function Work() {
             <Header />
             <body>
                 <section className="sec-9">
-                    <div>
+                    <div className="div-20">
                         <CardContact textoing={""} redirect={"/"} titulo={"GIT"} imagem={icon1} icon={iconGit} />
                         <CardContact textoing={""} redirect={"/"} titulo={"linkedin"} imagem={icon2} icon={icon5} />
                         <CardContact textoing={""} redirect={"/"} titulo={"e-mail"} imagem={icon3} icon={icon4} />
