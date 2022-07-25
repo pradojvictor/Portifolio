@@ -11,6 +11,7 @@ import icon5 from "./../../assets/icons/icon3.svg"
 import Link from "../../components/Link";
 
 
+
 import "./style.css";
 
 
@@ -29,10 +30,10 @@ function Work() {
                 </section>
                 <div className="divi-1">
                     <p>
-                        <Link texto="Figma : consulta de UX" redirect="https://www.figma.com/community" targett={"_blank"}></Link>
+                        <a href="https://iconmonstr.com/" target={"_blank"}>Figma : usado pra pesquisa de UX</a>
                     </p>
                     <p>
-                        <Link texto="icons : usados no portfolio" redirect="https://iconmonstr.com/ " targett={"_blank"}></Link>
+                        <a href="https://iconmonstr.com/" target={"_blank"} >Icons : usados no portfolio</a>
                     </p>
                 </div>
             </body>

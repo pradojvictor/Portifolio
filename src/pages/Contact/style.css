@@ -15,11 +15,16 @@ margin-top: 700px;
 margin-left: 100px;
 }
 
-.divi-1 p {
+.divi-1 a {
     font-family: 'Manrope';
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #959595;
     margin: 50px;
+    text-decoration: none;
+}
+
+.divi-1 p {
+    margin: 30px;
 }
