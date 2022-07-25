@@ -5,6 +5,8 @@ import dindin from "../../assets/images/dindin.png"
 import omma from "../../assets/images/omma.png"
 import soundgard from "../../assets/images/soundgard.png"
 import lavie from "../../assets/images/lavie.png"
+import portfolio from "../../assets/images/portfolio.png"
+
 
 
 
@@ -38,6 +40,14 @@ function Allwork() {
                     </div>
                     <div className="col-4">
                         <Card titulo="testao" textopt="An API that allows the creation of records of psychologists, patients and medical records. Our team will also be responsible for creating the database that includes: Creation of the DER and the SQL script that generates the database. The endpoints must be analyzed to be assembled according to the need, observing the data that constitute the 3 entities of the system." textoing="Uma API que permita criar registros de psicólogos, pacientes e prontuários. Nossa equipe também ficará responsável por criar o banco de dados que inclui : Criação do DER e do script SQL que gera o banco. Deve ser analisado os endpoints para seja montado de acordo com a necessidade, observando os dados que constituem a 3 entidades do sistema." imagem={lavie} redirect="https://github.com/pradojvictor/LaVie-Sa-de-Mental---Hands-On-3" redirect2={undefined} />
+                    </div>
+                </div>
+                <div className="div-4">
+                    <div className="col-3">
+                        <Card titulo="portfolio" textopt="" textoing="[obs: Eu particulamente gostei muito de trabalha nesse projeto, apesar do tempo corrido, devido ao projeto Gamaboss, foi muito bom tira algumas noites, claro que ainda não esta 100%, mais e muito bom aprender algo novo e utilizar, ou aprender pela nescessidade ]Este Projeto tem como finalidade expor todos os meus projetos e as tecnologias que eu estou aprendendo, muitos deles são testes de alguma tecnologia por isso não possuem uma estrutura completa de um site, neste portfolio também temos uma área sobre mim, contatos é uma área com os projetos mais completos, usados como desafio para o aprendizado." imagem={portfolio} redirect="https://github.com/pradojvictor/Portifolio" redirect2="/" />
+                    </div>
+                    <div className="col-4">
+                        <Card titulo="GAMA BOSS" textopt="In progress" textoing="em andamento" imagem={""} redirect="https://github.com/pradojvictor/GamaBoss" redirect2={undefined} />
                     </div>
                 </div>
 
