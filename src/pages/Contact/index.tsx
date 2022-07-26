@@ -23,9 +23,9 @@ function Work() {
             <body>
                 <section className="sec-9">
                     <div className="div-20">
-                        <CardContact textoing={""} redirect={"/"} titulo={"GIT"} imagem={icon1} icon={iconGit} />
-                        <CardContact textoing={""} redirect={"/"} titulo={"linkedin"} imagem={icon2} icon={icon5} />
-                        <CardContact textoing={""} redirect={"/"} titulo={"e-mail"} imagem={icon3} icon={icon4} />
+                        <CardContact textoing={""} redirect={"https://github.com/pradojvictor"} titulo={"GIT"} imagem={icon1} icon={iconGit} />
+                        <CardContact textoing={""} redirect={"https://www.linkedin.com/in/jo%C3%A3o-victor-prado-de-limaa/"} titulo={"linkedin"} imagem={icon2} icon={icon5} />
+                        <CardContact textoing={""} redirect={"mailto:joaovictorred@hotmail.com"} titulo={"e-mail"} imagem={icon3} icon={icon4} />
                     </div>
                 </section>
                 <div className="divi-1">
